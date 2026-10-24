@@ -74,10 +74,3 @@ chat-app/
             └── ChatWindow.jsx
 ```
 
-## Common errors
-- **"MongoDB connection failed"**: MongoDB service start nahi hai ya `MONGO_URI` galat hai.
-- **Login page par "Connecting to server..."**: backend (port 5000) chal nahi raha.
-- **Port already in use**: `server/.env` me `PORT` badlo aur `client/.env` me `VITE_SERVER_URL` update karo.
-
-## Resume ke liye next steps
-JWT authentication + user collection, private (1-to-1) messages, image upload, Docker, aur Render/Vercel/Atlas par deploy.
